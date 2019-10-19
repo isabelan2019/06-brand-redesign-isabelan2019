@@ -2,66 +2,69 @@ body{
   background-color: #ffe6e6;
   display:grid;
   margin:0px;
-  grid-template-columns: 254px 1fr 1fr 1fr;
-  grid-template-rows: 270px 1fr;
 }
 
 .mainbar{
   background-color: white;
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items:center;
+  justify-content: space-around;
   position:fixed;
   top:0px;
   left:0px;
-  height:100%;
-  width:250px;
+  width:100%;
+  height:150px;
   border: 2px solid #ff8080;
 }
 .navbar{
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   align-items:center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-
 .headerlinks{
-  font-family: Optima;
+  font-family: Optima, sans-serif;
   text-decoration: none;
   font-size: 20px;
   color:#ff9966;
   text-transform: uppercase;
-  margin:25px;
+  margin:0px 25px;
 }
 a.headerlinks:hover{
   color:#ff8080;
   text-decoration: underline;
 }
-
-h1{
+#first h1{
   font-family: "Apple Chancery", cursive;
   font-size: 60px;
-  margin:10px;
-  text-align:center;
+  margin:0px 10px;
   color:#ff9966;
 }
 i{
   color:#ff9966;
-  margin-top: 50px;
-  margin-left:10px;
-  margin-right:10px;
-
+  margin:0px 5px;
 }
 i:hover{
   color:#ff8080;
 }
-.content{
-  grid-column-start: 2;
-  grid-column-end: 5;
+#third{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.intro{
+  margin-top:150px;
+}
+.introimages img{
+  border:2px solid #ff8080;
 }
 
-#img1{
-  grid-column-start: 2;
-  grid-column-end:3;
-  align-self: center;
+.intro h2{
+  font-family: Optima, sans-serif;
+  font-size:30px;
+  color:#ff9966;
+  text-transform: uppercase;
+  font-weight:lighter;
+  text-align: center;
 }
