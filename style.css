@@ -1,0 +1,67 @@
+body{
+  background-color: #ffe6e6;
+  display:grid;
+  margin:0px;
+  grid-template-columns: 254px 1fr 1fr 1fr;
+  grid-template-rows: 270px 1fr;
+}
+
+.mainbar{
+  background-color: white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:250px;
+  border: 2px solid #ff8080;
+}
+.navbar{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.headerlinks{
+  font-family: Optima;
+  text-decoration: none;
+  font-size: 20px;
+  color:#ff9966;
+  text-transform: uppercase;
+  margin:25px;
+}
+a.headerlinks:hover{
+  color:#ff8080;
+  text-decoration: underline;
+}
+
+h1{
+  font-family: "Apple Chancery", cursive;
+  font-size: 60px;
+  margin:10px;
+  text-align:center;
+  color:#ff9966;
+}
+i{
+  color:#ff9966;
+  margin-top: 50px;
+  margin-left:10px;
+  margin-right:10px;
+
+}
+i:hover{
+  color:#ff8080;
+}
+.content{
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+#img1{
+  grid-column-start: 2;
+  grid-column-end:3;
+  align-self: center;
+}
