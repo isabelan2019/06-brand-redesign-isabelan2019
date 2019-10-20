@@ -61,7 +61,7 @@ i:hover{
   border-bottom: 2px solid #ff8080;
 
 }
-.intro h2{
+h2{
   font-family: Optima, sans-serif;
   font-size:30px;
   color:#ff9966;
@@ -113,10 +113,12 @@ i:hover{
   grid-row:2/3;
   align-self:center;
   justify-self: center;
+  border: 2px solid #ff8080;
 }
 #img4{
   grid-column:4/5;
   grid-row:2/3;
   align-self:center;
   justify-self: center;
+  border: 2px solid #ff8080;
 }
