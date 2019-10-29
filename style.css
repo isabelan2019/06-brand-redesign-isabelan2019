@@ -263,6 +263,9 @@ h4{
   grid-column: 1/2;
   grid-row:1/3;
 }
+.locations img, .customer-favorites img{
+  margin-top:20px;
+}
 .first-location{
 
   text-align: center;
@@ -294,7 +297,7 @@ th, td {
   height:60px;
   background-color:#ff8080;
   color:white;
-  border-top: 2px solid #994d00;
+  border: 2px solid #994d00;
   margin-top:30px;
 }
 .fourth-content{
